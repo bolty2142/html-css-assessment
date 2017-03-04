@@ -1,0 +1,77 @@
+body{
+    background-image: url("./img/main-bg.jpeg");
+    background-size: cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+}
+
+    .nav span{
+        padding: 0 13vw;
+        color: white;
+        font-size: 35px;
+        font-family: Baloo, cursive;
+
+    }
+.hamburger{
+    display: none;
+}
+.facebook{
+    display: none;
+}
+.twitter{
+    display: none;
+}
+
+        @media screen and (max-width: 769px) {
+            .nav span{
+                display: none;
+            }
+            .hamburger{
+                display: inline;
+                color: white;
+                padding-left: 2vw;
+
+
+            }
+            .facebook{
+                display: inline;
+                color: white;
+                padding: 0 1vw;
+                float: right;
+            }
+            .twitter{
+                display: inline;
+                color: white;
+                padding: 0 2vw;
+                float: right;
+
+            }
+        }
+.headline{
+    text-align: center;
+    margin-top: 25vh;
+    color: white;
+    line-height: 7vh;
+}
+    .headline h1{
+        font-size: 100px;
+        font-family: Baloo, cursive;
+
+    }
+    .headline h3{
+        font-size:40px;
+        font-family: Baloo, cursive;
+
+    }
+
+
+.bottom-arrow{
+    margin: 20vh 47vw 0 47vw;
+    border-radius: 100%;
+    background-color: white;
+    font-size:48px;
+    color:black;
+
+
+
+}
